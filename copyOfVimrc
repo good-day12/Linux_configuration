@@ -1,0 +1,23 @@
+"Turn syntax highlighting on
+syntax on
+
+"Set colorscheme to Murphey
+colorscheme synthwave84
+
+"Show line numbers and relative numbers
+set number relativenumber
+
+" Highlight cursor line and column
+set cursorline cursorcolumn
+
+"Show the mode you are in on the last line
+set showmode
+
+"Enable file type detection
+filetype on
+
+"set line break so words don't break apart over lines
+set linebreak
+
+"Set termguicolors so my synthwave colorscheme works
+set termguicolors
