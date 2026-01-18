@@ -1,0 +1,16 @@
+# set bind keys like vim to move between panes
+bind-key -n M-h select-pane -L
+bind-key -n M-j select-pane -D
+bind-key -n M-k select-pane -U
+bind-key -n M-l select-pane -R
+
+#bind zoom in key to alt z
+bind-key -n M-z resize-pane -Z
+
+# fix colorschemes in vim 
+set -ga terminal-overrides ",*256col*:Tc"
+set -g default-terminal "screen-256color"
+
+# don't forget to source the .tmux.conf file with tmux
+# press ctl+B, then enter :source-file ~/.tmux.conf
+# DONT FORGET TO NAME IT .tmux.conf and leave it in home directory
