@@ -2,7 +2,7 @@
 syntax on
 
 "Set colorscheme to murphy/synthwave84
-colorscheme synthwave84
+colorscheme murphy
 
 "Show line numbers and relative numbers
 set number relativenumber
