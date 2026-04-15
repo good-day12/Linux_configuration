@@ -12,7 +12,14 @@ then
 fi
 
 #install tools I use
-sudo apt install tree htop tldr btop nmap
+sudo apt install tree htop btop nmap
+# Install rust/cargo if you don't have it (for tealdeer, new version of tldr)
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+source $HOME/.cargo/env
+
+# Install fresh
+cargo install tealdeer
+tldr --update
 
 #NOTE: This script is assuming it came with a tmuxConf.txt file for .tmux.conf
 # and vimconf.txt for .vimrc
