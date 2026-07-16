@@ -5,7 +5,7 @@
 #This script is used to configure my bash environment to my liking
 
 #install tools I use
-sudo apt install tree htop tldr
+sudo apt install tree htop
 
 #NOTE: This script is assuming it came with a tmuxConf.txt file for .tmux.conf
 # and vimconf.txt for .vimrc
